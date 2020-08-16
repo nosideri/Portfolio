@@ -1,0 +1,13 @@
+body {
+    color: #d9efff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+header {
+    padding: 20px 35px;
+    background-color: #d9efff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
