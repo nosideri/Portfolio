@@ -54,10 +54,10 @@ header nav ul li a {
 
 .section-title {
     color: #343a40;
-    padding: 40px 10px 40px 300px;
     margin: 10px;
     text-align: right;
     display: flex;
+    flex: 1, 100px;
 }
 
 
@@ -128,15 +128,15 @@ header nav ul li a {
     font-size: 30px;
 }
 
-.work-grid-wrapper {
+/*.work-grid-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: space-around;
-    padding-left: 15px;
+    padding-left: 30px;
     border-left: solid 5px #343a40;
-}
+    flex: 2;
+}*/
 
 .work-grid-container {
     width: 80%;
@@ -146,6 +146,8 @@ header nav ul li a {
     grid-template-columns: 400px 400px 400px;
     grid-template-rows: 200px 200px 200px;
     justify-content: space-between;
+    padding-left: 155px;
+    border-left: solid 5px #343a40;
 }
 
 .work-grid-1 {
@@ -285,21 +287,24 @@ header nav ul li a {
 }
 
 
-.contact-info {
+/*.contact-info {
     display: flex;
     border-left: solid 5px #343a40;
     padding-left: 10px;
-}
+}*/
 
 .contact-info {
+    border-left: solid 5px #343a40;
+    padding-left: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: right;
     color: #343a40;
     font-weight: bold;
     font-size: 17px;
     flex-wrap: wrap;
+    flex: 2;
 }
   
 .info {
