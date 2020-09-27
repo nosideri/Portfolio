@@ -143,7 +143,7 @@ header nav ul li a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 400px 400px 400px;
+    /*grid-template-columns: 400px 400px 400px;*/
     grid-template-rows: 200px 200px 200px;
     justify-content: space-between;
     padding-left: 155px;
@@ -178,7 +178,7 @@ header nav ul li a {
 
 .work-grid-2 {
     border: solid 2px #90E0EF;
-    background-image: url("../images/skydrawing3.jpg");
+    background-image: url("../images/FINDTHEVIBE.png");
     padding: 15px 0;
     display: flex;
     flex-direction: row;
